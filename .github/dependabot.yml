@@ -12,6 +12,7 @@ updates:
     target-branch: "v1.2"
     labels:
       - "NuGet package updates"
+    open-pull-requests-limit: 0
 
   - package-ecosystem: "nuget"
     directory: "/"
@@ -20,7 +21,8 @@ updates:
     target-branch: "v1.1"
     labels:
       - "NuGet package updates"
-
+    open-pull-requests-limit: 0
+    
   - package-ecosystem: "nuget"
     directory: "/"
     schedule:
@@ -28,3 +30,4 @@ updates:
     target-branch: "v1.0"
     labels:
       - "NuGet package updates"
+    open-pull-requests-limit: 0
