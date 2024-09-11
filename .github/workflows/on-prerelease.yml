@@ -206,7 +206,7 @@ jobs:
       provenance-name: AdminApi.intoto.jsonl
       upload-assets: true
       # TODO: remove this after this issue is resolved: https://github.com/slsa-framework/slsa-github-generator/issues/876
-      compile-generator: true
+      #compile-generator: true
 
   publish-package:
     name: Publish NuGet Package
